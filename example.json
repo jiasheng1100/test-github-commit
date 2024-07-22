@@ -58,6 +58,16 @@
 						173
 					]
 				]
+			],
+			[
+				"N6",
+				"Object",
+				[
+					[
+						146,
+						150
+					]
+				]
 			]
 		],
 		"attributes": [],
@@ -476,7 +486,7 @@
 				"type": "Epic",
 				"values": {
 					"Epic": {
-						"glyph": "Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ"
+						"glyph": "ÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂÃÂ¢ÃÂÃÂ"
 					}
 				},
 				"bool": "Epic"
@@ -488,7 +498,7 @@
 				"type": "Notorious",
 				"values": {
 					"Notorious": {
-						"glyph": "Ã¢ÂÂ"
+						"glyph": "ÃÂ¢ÃÂÃÂ"
 					}
 				},
 				"bool": "Notorious"
@@ -514,7 +524,7 @@
 				"type": "LongAnnotation",
 				"values": {
 					"LONG_ANNOTATION_CONST": {
-						"glyph": "Ã¢ÂÂ¹"
+						"glyph": "ÃÂ¢ÃÂÃÂ¹"
 					}
 				},
 				"bool": "LONG_ANNOTATION_CONST"
