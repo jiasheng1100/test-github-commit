@@ -38,6 +38,26 @@
 						78
 					]
 				]
+			],
+			[
+				"N4",
+				"Person",
+				[
+					[
+						158,
+						162
+					]
+				]
+			],
+			[
+				"N5",
+				"Object",
+				[
+					[
+						163,
+						173
+					]
+				]
 			]
 		],
 		"attributes": [],
@@ -441,7 +461,7 @@
 				"type": "Epic",
 				"values": {
 					"Epic": {
-						"glyph": "★★★"
+						"glyph": "âââ"
 					}
 				},
 				"bool": "Epic"
@@ -453,7 +473,7 @@
 				"type": "Notorious",
 				"values": {
 					"Notorious": {
-						"glyph": "★"
+						"glyph": "â"
 					}
 				},
 				"bool": "Notorious"
@@ -479,7 +499,7 @@
 				"type": "LongAnnotation",
 				"values": {
 					"LONG_ANNOTATION_CONST": {
-						"glyph": "↹"
+						"glyph": "â¹"
 					}
 				},
 				"bool": "LONG_ANNOTATION_CONST"
