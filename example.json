@@ -82,6 +82,16 @@
 						141
 					]
 				]
+			],
+			[
+				"T3",
+				"Resurrection",
+				[
+					[
+						58,
+						64
+					]
+				]
 			]
 		],
 		"events": [
@@ -93,6 +103,11 @@
 			[
 				"E2",
 				"T2",
+				[]
+			],
+			[
+				"E3",
+				"T3",
 				[]
 			]
 		],
@@ -461,7 +476,7 @@
 				"type": "Epic",
 				"values": {
 					"Epic": {
-						"glyph": "âââ"
+						"glyph": "Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ"
 					}
 				},
 				"bool": "Epic"
@@ -473,7 +488,7 @@
 				"type": "Notorious",
 				"values": {
 					"Notorious": {
-						"glyph": "â"
+						"glyph": "Ã¢ÂÂ"
 					}
 				},
 				"bool": "Notorious"
@@ -499,7 +514,7 @@
 				"type": "LongAnnotation",
 				"values": {
 					"LONG_ANNOTATION_CONST": {
-						"glyph": "â¹"
+						"glyph": "Ã¢ÂÂ¹"
 					}
 				},
 				"bool": "LONG_ANNOTATION_CONST"
