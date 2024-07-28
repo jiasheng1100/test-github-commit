@@ -1,769 +1,280 @@
 {
-	"docData": {
-		"messages": [],
-		"source_files": [
-			"txt"
-		],
-		"modifications": [],
-		"normalizations": [],
-		"ctime": 0,
-		"text": "This is an example of how your annotation will look like.\nUpload a txt or json file to start annotating your own text.\nDouble-click or select any span to add your annotation.",
-		"entities": [
+	"messages": [],
+	"source_files": [
+		"txt"
+	],
+	"modifications": [],
+	"normalizations": [],
+	"ctime": 0,
+	"text": "This is an example of how your annotation will look like.\nUpload a txt or json file to start annotating your own text.\nDouble-click or select any span to add your annotation.",
+	"entities": [
+		[
+			"N1",
+			"Object",
 			[
-				"N1",
-				"Object",
 				[
-					[
-						11,
-						18
-					]
-				]
-			],
-			[
-				"N2",
-				"Child",
-				[
-					[
-						67,
-						70
-					]
-				]
-			],
-			[
-				"N3",
-				"Baby",
-				[
-					[
-						74,
-						78
-					]
-				]
-			],
-			[
-				"N4",
-				"Person",
-				[
-					[
-						158,
-						162
-					]
-				]
-			],
-			[
-				"N5",
-				"Object",
-				[
-					[
-						163,
-						173
-					]
-				]
-			],
-			[
-				"N6",
-				"Object",
-				[
-					[
-						146,
-						150
-					]
-				]
-			],
-			[
-				"N7",
-				"Object",
-				[
-					[
-						113,
-						117
-					]
+					11,
+					18
 				]
 			]
 		],
-		"attributes": [],
-		"relations": [],
-		"triggers": [
+		[
+			"N2",
+			"Child",
 			[
-				"T1",
-				"Assassination",
 				[
-					[
-						119,
-						131
-					]
-				]
-			],
-			[
-				"T2",
-				"Bomb",
-				[
-					[
-						135,
-						141
-					]
-				]
-			],
-			[
-				"T3",
-				"Resurrection",
-				[
-					[
-						58,
-						64
-					]
+					67,
+					70
 				]
 			]
 		],
-		"events": [
+		[
+			"N3",
+			"Baby",
 			[
-				"E1",
-				"T1",
-				[]
-			],
-			[
-				"E2",
-				"T2",
-				[]
-			],
-			[
-				"E3",
-				"T3",
-				[]
+				[
+					74,
+					78
+				]
 			]
 		],
-		"comments": [],
-		"collection": null,
-		"equivs": [],
-		"sentence_offsets": [
+		[
+			"N4",
+			"Person",
 			[
-				0,
-				57
-			],
-			[
-				58,
-				118
-			],
-			[
-				119,
-				174
+				[
+					158,
+					162
+				]
 			]
 		],
-		"token_offsets": [
+		[
+			"N5",
+			"Object",
 			[
-				0,
-				4
-			],
+				[
+					163,
+					173
+				]
+			]
+		],
+		[
+			"N6",
+			"Object",
 			[
-				5,
-				7
-			],
+				[
+					146,
+					150
+				]
+			]
+		],
+		[
+			"N7",
+			"Object",
 			[
-				8,
-				10
-			],
-			[
-				11,
-				18
-			],
-			[
-				19,
-				21
-			],
-			[
-				22,
-				25
-			],
-			[
-				26,
-				30
-			],
-			[
-				31,
-				41
-			],
-			[
-				42,
-				46
-			],
-			[
-				47,
-				51
-			],
-			[
-				52,
-				57
-			],
-			[
-				58,
-				64
-			],
-			[
-				65,
-				66
-			],
-			[
-				67,
-				70
-			],
-			[
-				71,
-				73
-			],
-			[
-				74,
-				78
-			],
-			[
-				79,
-				83
-			],
-			[
-				84,
-				86
-			],
-			[
-				87,
-				92
-			],
-			[
-				93,
-				103
-			],
-			[
-				104,
-				108
-			],
-			[
-				109,
-				112
-			],
-			[
-				113,
-				118
-			],
-			[
-				119,
-				131
-			],
-			[
-				132,
-				134
-			],
-			[
-				135,
-				141
-			],
-			[
-				142,
-				145
-			],
-			[
-				146,
-				150
-			],
-			[
-				151,
-				153
-			],
-			[
-				154,
-				157
-			],
-			[
-				158,
-				162
-			],
-			[
-				163,
-				174
+				[
+					113,
+					117
+				]
 			]
 		]
-	},
-	"collData": {
-		"messages": [],
-		"items": [],
-		"ui_names": {
-			"entities": "annotation",
-			"events": "events",
-			"relations": "relations",
-			"attributes": "attributes"
-		},
-		"search_config": [
+	],
+	"attributes": [],
+	"relations": [],
+	"triggers": [
+		[
+			"T1",
+			"Assassination",
 			[
-				"Google",
-				"http://www.google.com/search?q=%s"
-			],
-			[
-				"Wikipedia",
-				"http://en.wikipedia.org/wiki/Special:Search?search=%s"
-			],
-			[
-				"UniProt",
-				"http://www.uniprot.org/uniprot/?sort=score&query=%s"
-			],
-			[
-				"EntrezGene",
-				"http://www.ncbi.nlm.nih.gov/gene?term=%s"
-			],
-			[
-				"GeneOntology",
-				"http://amigo.geneontology.org/cgi-bin/amigo/search.cgi?search_query=%s&action=new-search&search_constraint=term"
-			],
-			[
-				"ALC",
-				"http://eow.alc.co.jp/%s"
+				[
+					119,
+					131
+				]
 			]
 		],
-		"disambiguator_config": [],
-		"unconfigured_types": [
-			{
-				"borderColor": "darken",
-				"arrowHead": "triangle,5",
-				"name": "Cause",
-				"color": "#007700",
-				"labels": [
-					"Cause"
-				],
-				"unused": true,
-				"bgColor": "lightgreen",
-				"type": "Cause",
-				"fgColor": "black"
-			}
+		[
+			"T2",
+			"Bomb",
+			[
+				[
+					135,
+					141
+				]
+			]
 		],
-		"entity_types": [
-			{
-				"name": "Person",
-				"type": "Person",
-				"labels": [
-					"Per",
-					"P"
-				],
-				"bgColor": "#FE2E2E",
-				"borderColor": "darken",
-				"unused": false,
-				"attributes": [
-					"Notorious",
-					"Polarity",
-					"LongAnnotation"
-				],
-				"arcs": [
-					{
-						"arrowHead": "triangle,5",
-						"color": "black",
-						"labels": [
-							"Ennemy",
-							"Enn"
-						],
-						"dashArray": ",",
-						"hotkey": "T",
-						"type": "Ennemy",
-						"targets": [
-							"Person"
-						]
-					},
-					{
-						"arrowHead": "triangle,5",
-						"color": "black",
-						"labels": [
-							"Friend",
-							"Fr"
-						],
-						"dashArray": ",",
-						"hotkey": "T",
-						"type": "Friend",
-						"targets": [
-							"Person"
-						]
-					},
-					{
-						"arrowHead": "triangle,5",
-						"color": "black",
-						"labels": [
-							"Destruction",
-							"Dest"
-						],
-						"dashArray": ",",
-						"hotkey": "T",
-						"type": "Destruction",
-						"targets": [
-							"Object",
-							"Person"
-						]
-					}
-				],
-				"children": [
-					{
-						"name": "Child",
-						"type": "Child",
-						"labels": [
-							"Child",
-							"Child"
-						],
-						"bgColor": "#FE2E2E",
-						"borderColor": "darken",
-						"children": [
-							{
-								"name": "Baby",
-								"type": "Baby",
-								"labels": [
-									"Baby",
-									"Baby"
-								],
-								"bgColor": "#DF7401",
-								"borderColor": "darken",
-								"children": []
-							},
-							{
-								"name": "Kid",
-								"type": "Kid",
-								"labels": [
-									"Kid",
-									"Kid"
-								],
-								"bgColor": "#FE2E2E",
-								"borderColor": "darken",
-								"children": []
-							}
-						]
-					}
+		[
+			"T3",
+			"Resurrection",
+			[
+				[
+					58,
+					64
 				]
-			},
-			{
-				"name": "Object",
-				"type": "Object",
-				"labels": [
-					"Object",
-					"Obj"
-				],
-				"bgColor": "#7fa2ff",
-				"borderColor": "darken",
-				"attributes": [
-					"LongAnnotation"
-				],
-				"children": [],
-				"unused": false,
-				"arcs": [
-					{
-						"arrowHead": "triangle,5",
-						"color": "black",
-						"labels": [
-							"Destruction",
-							"Dest"
-						],
-						"dashArray": ",",
-						"hotkey": "T",
-						"type": "Destruction",
-						"targets": [
-							"Object",
-							"Person"
-						]
-					}
-				]
-			}
-		],
-		"event_attribute_types": [
-			{
-				"labels": null,
-				"type": "Confidence",
-				"name": "Confidence",
-				"unused": false,
-				"values": {
-					"Certain": {
-						"dashArray": ","
-					},
-					"Likely": {
-						"dashArray": "3,3"
-					},
-					"Possible": {
-						"dashArray": "3,6"
-					}
-				}
-			},
-			{
-				"labels": null,
-				"type": "BombType",
-				"name": "BombType",
-				"unused": false,
-				"values": {
-					"Nuclear bomb": {},
-					"Neutron bomb": {},
-					"Napalm bomb": {},
-					"Hydrogen bomb": {}
-				}
-			},
-			{
-				"name": "Epic",
-				"type": "Epic",
-				"values": {
-					"Epic": {
-						"glyph": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂ"
-					}
-				},
-				"bool": "Epic"
-			}
-		],
-		"entity_attribute_types": [
-			{
-				"name": "Notorious",
-				"type": "Notorious",
-				"values": {
-					"Notorious": {
-						"glyph": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ"
-					}
-				},
-				"bool": "Notorious"
-			},
-			{
-				"type": "Polarity",
-				"name": "Polarity",
-				"values": {
-					"Positive": {
-						"box": "none",
-						"glyph": "\n[Polarity:true]",
-						"dashArray": "1,2"
-					},
-					"Negative": {
-						"box": "crossed",
-						"glyph": "\n[Polarity:false]",
-						"dashArray": "3,4"
-					}
-				}
-			},
-			{
-				"name": "LongAnnotation",
-				"type": "LongAnnotation",
-				"values": {
-					"LONG_ANNOTATION_CONST": {
-						"glyph": "ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ¹"
-					}
-				},
-				"bool": "LONG_ANNOTATION_CONST"
-			}
-		],
-		"relation_attribute_types": [
-			{
-				"labels": null,
-				"type": "RelConfidence",
-				"name": "Relation Confidence",
-				"unused": false,
-				"values": {
-					"Certain": {
-						"dashArray": ","
-					},
-					"Likely": {
-						"dashArray": "3,3"
-					},
-					"Possible": {
-						"dashArray": "3,6"
-					}
-				}
-			},
-			{
-				"name": "Safe",
-				"type": "Safe",
-				"values": {
-					"Safe": {}
-				}
-			}
-		],
-		"relation_types": [
-			{
-				"type": "Destruction",
-				"labels": [
-					"Destruction",
-					"Dest"
-				],
-				"dashArray": "3,3",
-				"color": "purple",
-				"args": [
-					{
-						"role": "Destructor",
-						"targets": [
-							"Person",
-							"Object"
-						]
-					},
-					{
-						"role": "Destroyed",
-						"targets": [
-							"Person",
-							"Object"
-						]
-					}
-				]
-			},
-			{
-				"type": "Friend",
-				"labels": [
-					"Friend",
-					"Fr"
-				],
-				"dashArray": "3,3",
-				"color": "purple",
-				"attributes": [
-					"RelConfidence",
-					"Safe"
-				],
-				"args": [
-					{
-						"role": "From",
-						"targets": [
-							"Person"
-						]
-					},
-					{
-						"role": "To",
-						"targets": [
-							"Person"
-						]
-					}
-				]
-			},
-			{
-				"type": "Ennemy",
-				"labels": [
-					"Ennemy",
-					"Enn"
-				],
-				"dashArray": "3,3",
-				"color": "purple",
-				"args": [
-					{
-						"role": "From",
-						"targets": [
-							"Person"
-						]
-					},
-					{
-						"role": "To",
-						"targets": [
-							"Person"
-						]
-					}
-				]
-			},
-			{
-				"type": "Perpetrator",
-				"labels": [
-					"Perpetrator",
-					"Perp"
-				],
-				"dashArray": "3,3",
-				"color": "purple",
-				"args": [
-					{
-						"role": "From",
-						"targets": [
-							"Assassination"
-						]
-					},
-					{
-						"role": "To",
-						"targets": [
-							"Person"
-						]
-					}
-				]
-			}
-		],
-		"event_types": [
-			{
-				"name": "Assassination",
-				"type": "Assassination",
-				"labels": [
-					"Assassination",
-					"Assas"
-				],
-				"bgColor": "lightgreen",
-				"borderColor": "darken",
-				"attributes": [
-					"Epic"
-				],
-				"children": [],
-				"unused": false,
-				"arcs": [
-					{
-						"type": "Victim",
-						"labels": [
-							"Victim",
-							"Vict"
-						],
-						"targets": [
-							"Person"
-						]
-					},
-					{
-						"type": "Perpetrator",
-						"labels": [
-							"Perpetrator",
-							"Perp"
-						],
-						"targets": [
-							"Person"
-						],
-						"color": "green"
-					}
-				]
-			},
-			{
-				"name": "Bomb",
-				"type": "Bomb",
-				"labels": [
-					"Bomb",
-					"Bomb"
-				],
-				"bgColor": "gold",
-				"borderColor": "darken",
-				"attributes": [
-					"BombType"
-				],
-				"children": [],
-				"unused": false,
-				"arcs": [
-					{
-						"type": "Destroyed",
-						"labels": [
-							"Destroyed",
-							"Dest"
-						],
-						"color": "gold"
-					}
-				]
-			},
-			{
-				"name": "Resurrection",
-				"type": "Resurrection",
-				"labels": [
-					"Resurrection",
-					"Resur"
-				],
-				"bgColor": "magenta",
-				"borderColor": "darken",
-				"attributes": [
-					"Epic",
-					"Confidence"
-				],
-				"children": [],
-				"unused": false,
-				"arcs": [
-					{
-						"type": "Resurrected",
-						"labels": [
-							"Resurrected",
-							"Resur"
-						],
-						"color": "magenta"
-					},
-					{
-						"type": "Savior",
-						"labels": [
-							"Savior",
-							"Sav"
-						],
-						"color": "magenta"
-					}
-				]
-			}
+			]
 		]
-	}
+	],
+	"events": [
+		[
+			"E1",
+			"T1",
+			[]
+		],
+		[
+			"E2",
+			"T2",
+			[]
+		],
+		[
+			"E3",
+			"T3",
+			[]
+		]
+	],
+	"comments": [],
+	"collection": null,
+	"equivs": [],
+	"sentence_offsets": [
+		[
+			0,
+			57
+		],
+		[
+			58,
+			118
+		],
+		[
+			119,
+			174
+		]
+	],
+	"token_offsets": [
+		[
+			0,
+			4
+		],
+		[
+			5,
+			7
+		],
+		[
+			8,
+			10
+		],
+		[
+			11,
+			18
+		],
+		[
+			19,
+			21
+		],
+		[
+			22,
+			25
+		],
+		[
+			26,
+			30
+		],
+		[
+			31,
+			41
+		],
+		[
+			42,
+			46
+		],
+		[
+			47,
+			51
+		],
+		[
+			52,
+			57
+		],
+		[
+			58,
+			64
+		],
+		[
+			65,
+			66
+		],
+		[
+			67,
+			70
+		],
+		[
+			71,
+			73
+		],
+		[
+			74,
+			78
+		],
+		[
+			79,
+			83
+		],
+		[
+			84,
+			86
+		],
+		[
+			87,
+			92
+		],
+		[
+			93,
+			103
+		],
+		[
+			104,
+			108
+		],
+		[
+			109,
+			112
+		],
+		[
+			113,
+			118
+		],
+		[
+			119,
+			131
+		],
+		[
+			132,
+			134
+		],
+		[
+			135,
+			141
+		],
+		[
+			142,
+			145
+		],
+		[
+			146,
+			150
+		],
+		[
+			151,
+			153
+		],
+		[
+			154,
+			157
+		],
+		[
+			158,
+			162
+		],
+		[
+			163,
+			174
+		]
+	]
 }
