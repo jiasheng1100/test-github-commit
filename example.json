@@ -9,16 +9,6 @@
 	"text": "This is an example of how your annotation will look like.\nUpload a txt or json file to start annotating your own text.\nDouble-click or select any span to add your annotation.",
 	"entities": [
 		[
-			"N1",
-			"Object",
-			[
-				[
-					11,
-					18
-				]
-			]
-		],
-		[
 			"N2",
 			"Child",
 			[
@@ -75,16 +65,6 @@
 				[
 					113,
 					117
-				]
-			]
-		],
-		[
-			"N8",
-			"Object",
-			[
-				[
-					31,
-					41
 				]
 			]
 		]
