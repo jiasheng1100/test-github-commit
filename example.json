@@ -9,32 +9,12 @@
 	"text": "This is an example of how your annotation will look like.\nUpload a txt or json file to start annotating your own text.\nDouble-click or select any span to add your annotation.",
 	"entities": [
 		[
-			"N1",
-			"Object",
-			[
-				[
-					11,
-					18
-				]
-			]
-		],
-		[
 			"N2",
 			"Child",
 			[
 				[
 					67,
 					70
-				]
-			]
-		],
-		[
-			"N3",
-			"Baby",
-			[
-				[
-					74,
-					78
 				]
 			]
 		],
@@ -67,21 +47,21 @@
 					103
 				]
 			]
+		],
+		[
+			"N5",
+			"Baby",
+			[
+				[
+					11,
+					18
+				]
+			]
 		]
 	],
 	"attributes": [],
 	"relations": [],
 	"triggers": [
-		[
-			"T1",
-			"Assassination",
-			[
-				[
-					119,
-					131
-				]
-			]
-		],
 		[
 			"T2",
 			"Bomb",
@@ -91,32 +71,12 @@
 					141
 				]
 			]
-		],
-		[
-			"T3",
-			"Resurrection",
-			[
-				[
-					58,
-					64
-				]
-			]
 		]
 	],
 	"events": [
 		[
-			"E1",
-			"T1",
-			[]
-		],
-		[
 			"E2",
 			"T2",
-			[]
-		],
-		[
-			"E3",
-			"T3",
 			[]
 		]
 	],
