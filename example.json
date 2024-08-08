@@ -7,7 +7,18 @@
 	"normalizations": [],
 	"ctime": 0,
 	"text": "Bad movie with good actors.\nA fun time.\nIt's so good but super sad.\nBoring\nGood movie for children.",
-	"entities": [],
+	"entities": [
+		[
+			"N1",
+			"Person",
+			[
+				[
+					20,
+					26
+				]
+			]
+		]
+	],
 	"attributes": [],
 	"relations": [],
 	"triggers": [
