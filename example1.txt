@@ -1,0 +1,8 @@
+By not upgrading the system components, you might miss out important security updates that could leave your system vulnerable to exploits and attacks.
+Newer packages and dependencies may not be compatible with older versions.
+You might miss out on bug fixes, performance improvements, and new features introduced in the updated packages.
+The difference between apt-get upgrade and apt-get dist-upgrade is that the latter will install and/or remove packages to unblock upgrading of other packages while the former will only upgrade packages if they can be upgraded without changing the list of installed packages (note: apt upgrade will install new packages but not remove packages).
+On a pure Debian stable system being upgraded within a release* dist-upgrade should not be adding or removing much. The whole point of a stable release is that once it has been made changes should be kept to a minimum.
+Kernel packages are a bit of an exception to this. The kernel doesn't have a stable module ABI upstream, even within stable release series and sometimes a kernel upgrade brings with it a kernel ABI bump which leads to kernel packages being renamed.
+Web browsers can also be a bit of an exception. None of them have support lifecycles as long as Debian stable releases, which means new major versions of browsers, potentially with new dependencies have to be introduced to stable releases.
+If the system has backports, or third party repositories in use then those may have more intrusive and riskier upgrades.
