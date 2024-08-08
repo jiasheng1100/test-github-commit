@@ -39,16 +39,6 @@
 			]
 		],
 		[
-			"N9",
-			"Person",
-			[
-				[
-					93,
-					103
-				]
-			]
-		],
-		[
 			"N5",
 			"Baby",
 			[
@@ -61,25 +51,8 @@
 	],
 	"attributes": [],
 	"relations": [],
-	"triggers": [
-		[
-			"T2",
-			"Bomb",
-			[
-				[
-					135,
-					141
-				]
-			]
-		]
-	],
-	"events": [
-		[
-			"E2",
-			"T2",
-			[]
-		]
-	],
+	"triggers": [],
+	"events": [],
 	"comments": [],
 	"collection": null,
 	"equivs": [],
