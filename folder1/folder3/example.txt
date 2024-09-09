@@ -1,0 +1,117 @@
+{
+	"messages": [],
+	"source_files": [
+		"txt"
+	],
+	"modifications": [],
+	"normalizations": [],
+	"ctime": 0,
+	"text": "Bad movie with good actors.\nA fun time.\nIt's so good but super sad.\nBoring\nGood movie for children.",
+	"entities": [],
+	"attributes": [],
+	"relations": [],
+	"triggers": [],
+	"events": [],
+	"comments": [],
+	"equivs": [],
+	"sentence_offsets": [
+		[
+			0,
+			27
+		],
+		[
+			28,
+			39
+		],
+		[
+			40,
+			67
+		],
+		[
+			68,
+			74
+		],
+		[
+			75,
+			99
+		]
+	],
+	"token_offsets": [
+		[
+			0,
+			3
+		],
+		[
+			4,
+			9
+		],
+		[
+			10,
+			14
+		],
+		[
+			15,
+			19
+		],
+		[
+			20,
+			27
+		],
+		[
+			28,
+			29
+		],
+		[
+			30,
+			33
+		],
+		[
+			34,
+			39
+		],
+		[
+			40,
+			44
+		],
+		[
+			45,
+			47
+		],
+		[
+			48,
+			52
+		],
+		[
+			53,
+			56
+		],
+		[
+			57,
+			62
+		],
+		[
+			63,
+			67
+		],
+		[
+			68,
+			74
+		],
+		[
+			75,
+			79
+		],
+		[
+			80,
+			85
+		],
+		[
+			86,
+			89
+		],
+		[
+			90,
+			99
+		]
+	]
+}
