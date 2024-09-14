@@ -1,0 +1,4 @@
+This is an example of how your annotations will look.
+Double-click or drag to select a span of characters to add your annotation.
+Start annotating your own data by authenticating with your GitHub Personal Access Token.
+The repository name, owner, file path and branch can be specified in config.json.
